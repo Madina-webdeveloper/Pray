@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/body-bg20.png");
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+
+}
+.date {
+  margin-left: 20px;
+}
+.img {
+  width: 40px;
+  height: 40px;
+}
+
+.box {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.652);
+  backdrop-filter: blur(5px);
+}
+.box:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  background-color: rgba(255, 255, 255, 0.425);
+  backdrop-filter: blur(2px);
+}
+
+.card-img {
+  transition: all 0.3s ease;
+}
+.card-img:hover {
+  transform: scale(0.95);
+}
+
+.moon {
+  border: none !important;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.bi {
+  font-size: 25px !important;
+}
+
+.sun {
+  border: none !important;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.haftalik{
+  background-color:rgb(227, 139, 139) !important;
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+  .img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .box {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.652);
+    backdrop-filter: blur(5px);
+  }
+}
